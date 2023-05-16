@@ -30,10 +30,20 @@ HEADER
     justify-content: space-between;
 }
 
+
+
 .column-nav-header{
     width: 50%;
 }
 
+.nav-header-right{
+    text-align: right;
+}
+
+.jumbotron-container{
+    max-width: 60vw;
+    margin: auto;
+}
 /*
 
 MAIN
@@ -55,7 +65,7 @@ DEBUG
 
 .debug header{
     background-color: aquamarine;
-    height: 300px;
+    height: 800px;
     width: 100vw;
 }
 
@@ -76,6 +86,32 @@ DEBUG
 }
 
 .debug .column-nav-header{
-    border: dashed black;
     background-color: blue;
+}
+
+.debug .jumbotron-container{
+    background-color: bisque;
+    width: 60vw;
+    height: 600px;
+    border: dashed black;
+}
+
+.debug .flex-2{
+    background-color: darkgoldenrod;
+    height: 400px;
+    width: 100%;
+}
+
+.debug .column-40,
+.debug .column-60{
+    border: dashed black;
+    height: 400px;
+}
+
+.debug .column-40{
+    width: 40%;
+}
+
+.debug .column-60{
+    width: 60%;
 }
