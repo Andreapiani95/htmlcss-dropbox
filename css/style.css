@@ -118,6 +118,10 @@ FOOTER
 
 */
 
+.flex-9{
+    width: 100%;
+}
+
 
 /*
 
@@ -139,7 +143,7 @@ DEBUG
 
 .debug footer{
     background-color: mediumseagreen;
-    height: 200px;
+    height: 600px;
     width: 100vw;
 }
 
@@ -206,4 +210,9 @@ DEBUG
 
 .debug .column-7{
     border: dashed black;
+}
+
+.debug .flex-9{
+    background-color: darkviolet;
+    height: 400px;
 }
