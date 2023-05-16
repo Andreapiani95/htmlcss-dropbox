@@ -16,11 +16,23 @@ GENERAL
 
 */
 
+.flex-box{
+    display: flex;
+}
+
 /*
 
 HEADER
 
 */
+
+.flex-1{
+    justify-content: space-between;
+}
+
+.column-nav-header{
+    width: 50%;
+}
 
 /*
 
@@ -40,3 +52,30 @@ FOOTER
 DEBUG
 
 */
+
+.debug header{
+    background-color: aquamarine;
+    height: 300px;
+    width: 100vw;
+}
+
+.debug main{
+    background-color: magenta;
+    height: 1000px;
+    width: 100vw;
+}
+
+.debug footer{
+    background-color: mediumseagreen;
+    height: 200px;
+    width: 100vw;
+}
+
+.debug .flex-1{
+    height: 100px;
+}
+
+.debug .column-nav-header{
+    border: dashed black;
+    background-color: blue;
+}
