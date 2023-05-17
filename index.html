@@ -5,7 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+            <!--FONT-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
 
+            <!--FONTAWESOME-->
+        <script src="https://kit.fontawesome.com/b2acb5c068.js" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="css/style.css">
             <!--CSS-->
@@ -19,36 +25,47 @@
         <header>
 
             <!-- header top e header bottom-->
-            <div class="flex-box flex-1">
+            <div class="flex-box header-top">
+
                 <!--Un nav che sarà fixed o sticky-->
-                <div class="column-nav-header">
-                    <a href="">link</a>
-                    <a href="">link</a>
-                    <a href="">link</a>
-                    <a href="">link</a>
-                </div>
-                <div class="column-nav-header nav-header-right">
-                    <a href="">link</a>
-                    <a href="">link</a>
-                    <a href="">link</a>
-                    <button>inizia</button>
-                </div>
+                <ul class="column-50">
+                    <li><a id="home-directory" href=""><i class="fa-brands fa-dropbox"></i>Dropbox</a></li>
+                    <li><a href="">Perchè Dropbox</a></li>
+                    <li><a href="">Funzioni</a></li>
+                    <li><a href="">Piani e Prezzi</a></li>
+                </ul>
+
+                <ul class="column-50 nav-header-right">
+                    <li><a href="">Supporto</a></li>
+                    <li><a href="">Contatta l'ufficio vendite</a></li>
+                    <li><a href="">Accedi</a></li>
+                    <li><a href=""><button>Inizia</button></a></li>
+                </ul>
 
             </div>
 
             <div class="jumbotron-container">
                 <!--In questo div andremo a inserire il Jumbotron-->
-                <div>
-                    <h1>Tutto ciò che ti serve per il lavoro in un unico posto</h1>
+                <div class="jumbotron">
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                     
-                    <div class="flex-box flex-2">
+                    <div class="flex-box flex-1">
                         
                         <div class="column-40">
 
-                       
+                            <p>
+                                Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                            </p>
+
+                            <a href=""><button>Inizia la tua prova gratuita</button></a>
+
+                            <p>Annulla in qualsiasi momento</p>
+
+                            <i class="fa-solid fa-arrow-down"></i>
                         </div>
                         <div class="column-60">
 
+                            <img src="img/jumbo.png" alt="jumbo">
                        
                         </div>
                     
@@ -195,32 +212,69 @@
         <!--Nel footer ci sono un flexbox con 5 colonne, poi un secondo div diviso da un hr con una width fissata-->
         <footer>
 
-            <div class="container">
+            <div class="footer-container">
 
                 <div class="flex-box flex-9">
                     <!--flexbox con 5 colonne-->
                     <div class="column-20">
-
+                        <ul>
+                            <li><a href="">Dropbox</a></li>
+                            <li><a href="">Applicazione desktop</a></li>
+                            <li><a href="">Perchè Dropbox</a></li>
+                            <li><a href="">Piani</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">funzioni</a></li>
+                        </ul>
                     </div>
                     <div class="column-20">
-
+                        <ul>
+                            <li><a href="">Dropbox</a></li>
+                            <li><a href="">Applicazione desktop</a></li>
+                            <li><a href="">Perchè Dropbox</a></li>
+                            <li><a href="">Piani</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">funzioni</a></li>
+                        </ul>
                     </div>
                     <div class="column-20">
-
+                        <ul>
+                            <li><a href="">Dropbox</a></li>
+                            <li><a href="">Applicazione desktop</a></li>
+                            <li><a href="">Perchè Dropbox</a></li>
+                            <li><a href="">Piani</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">funzioni</a></li>
+                        </ul>
                     </div>
                     <div class="column-20">
-
+                        <ul>
+                            <li><a href="">Dropbox</a></li>
+                            <li><a href="">Applicazione desktop</a></li>
+                            <li><a href="">Perchè Dropbox</a></li>
+                            <li><a href="">Piani</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">funzioni</a></li>
+                        </ul>
                     </div>
                     <div class="column-20">
-
+                        <ul>
+                            <li><a href="">Dropbox</a></li>
+                            <li><a href="">Applicazione desktop</a></li>
+                            <li><a href="">Perchè Dropbox</a></li>
+                            <li><a href="">Piani</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">funzioni</a></li>
+                        </ul>
                     </div>
                 </div>
                 <!--qua un hr-->
                 <hr>
 
-                <div>
+                <div class="language-selection">
+
                     <!--testo-->
-                    <h4>italiano</h4>
+                    <i class="fa-solid fa-earth-americas"></i><span> italiano </span></h4><span><i class="fa-solid fa-caret-up"></i></span>
+
                 </div>
             </div>
 
