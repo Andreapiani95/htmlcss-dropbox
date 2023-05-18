@@ -64,6 +64,7 @@ header{
 .header-top{
     justify-content: space-between;
     width: 100vw;
+    flex-wrap: nowrap;
     position: fixed;
     top: 0;
     z-index: 2;
@@ -71,6 +72,7 @@ header{
     vertical-align: middle;
     background-color: white;
     font-weight: light;
+    padding-bottom: 10px;
 }
 
 .jumbotron-container{
@@ -88,6 +90,7 @@ header{
 
 .column-50{
     width: 50%;
+    align-content: center;
 }
 
 .column-30{
@@ -125,15 +128,19 @@ li{
     color: #999999;
 }
 
+.header-top button{
+    margin:-10px 0px -10px -10px;
+}
+
 li>a{
     text-decoration: none;
 }
 
-#home-directory{
-    color: black;
-    font-weight: bold;
-    font-size: 1.5em;
+#logo{
+vertical-align: middle;
 }
+
+
 .fa-dropbox{
     color: #005FFF;
 }
@@ -259,10 +266,44 @@ main{
     width: 20%;
 }
 
+.column-40{
+    width: 40%;
+}
+.flex-partner{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.flex-partner .column-40{
+    align-items: stretch;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.flex-partner h2,
+.flex-partner p{
+    padding-bottom: 20px;
+}
+
+.flex-partner button{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: normal;
+}
+
+.container>h2{
+    font-size: 2.3em;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
 .flex-6{
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .flex-7{
