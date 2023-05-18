@@ -21,7 +21,7 @@ GENERAL
 }
 
 .container{
-    max-width: 80vw;
+    max-width: 60vw;
     margin:auto
 }
 
@@ -45,9 +45,11 @@ button{
 
 img{
     width: 100%;
-   
 }
 
+a:visited{
+    color: #0061FF;
+}
 /*
 
 HEADER
@@ -62,7 +64,7 @@ header{
 .header-top{
     justify-content: space-between;
     width: 100vw;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 2;
     align-content: center;
@@ -74,6 +76,7 @@ header{
 .jumbotron-container{
     max-width: 1200px;
     margin: auto;
+    padding-top: 50px;
 }
 
 .flex-1{
@@ -150,31 +153,106 @@ h1{
 MAIN
 
 */
+main{
+    padding-top: 100px;
+}
+
+.payment-selection>*{
+    margin-bottom: 50px;
+}
+
+.payment-selection>h2{
+    font-weight: bold;
+    font-size: 3em;
+}
 
 .flex-3{
     width: 100%;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 40px;
 }
 
 .column-3{
     width: 30%;
+    border: 1px solid black;
+}
+
+.head-column-3{
+    border-bottom: 1px solid #999999;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-column-3>*{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-column-3>h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-column-3>h3{
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+.main-column-3>p{
+    font-weight: 200;
+    padding-bottom: 40px;
+}
+.main-column-3>ul{
+    padding-bottom: 40px;
+    color: black;
+}
+
+.main-column-3>a>button{
+    margin-bottom: 40px;
+}
+
+.main-column-3>ul>li{
+    padding-bottom: 10px;
+}
+.main-column-3>hr{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.fa-check{
+    color: #005FFF;
 }
 
 .flex-4{
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
+    border: 1px solid black;
+}
+
+.head-flex-4{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
 }
 
 .flex-5{
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.column-70{
-    width: 70%;
+.flex-5>.column-60>h2{
+    padding-bottom: 10px;
+}
+
+.flex-5>.column-60>p{
+    padding-top: 40px;
+}
+
+.column-60{
+    width: 60%;
 }
 
 .column-20{
@@ -212,6 +290,12 @@ MAIN
 FOOTER
 
 */
+
+footer{
+    background-color: black;
+    width: 100vw;
+}
+
 .footer-container{
     max-width: 80%;
     margin: auto;
@@ -257,38 +341,8 @@ DEBUG
 */
 .debug main{
     
-    height: 3000px;
+    height: 4000px;
     width: 100vw;
-}
-
-.debug footer{
-    background-color: black;
-    
-    width: 100vw;
-}
-
-
-
-.debug .column-3,
-.debug .flex-3{
-    background-color: crimson;
-    height: 500px;
-    border: dashed black;
-}
-
-.debug .flex-4{
-    background-color: darkcyan;
-    height: 300px;
-    border: dashed black;
-}
-
-.debug .flex-5{
-    height: 80%;
-}
-
-
-.debug .column-20{
-    height: 40%;
 }
 
 .debug .flex-6{
